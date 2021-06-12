@@ -52,7 +52,7 @@ function take_snapshot() {
 
 }
 
-function save(){
+function save() {
     link = document.getElementById("link");
     image = document.getElementById("img").src;
     link.href = image;
